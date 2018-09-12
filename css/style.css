@@ -1,0 +1,252 @@
+body, html {
+	height: 100%;
+}
+/*body{
+	background-color: green;
+}*/
+/*button{
+	background-color:orange;
+}
+.busayo{
+	background-color: pink;
+
+}
+#busayo{
+	background-color: purple;                          
+}*/
+.topnav{
+	background-color: black;
+	overflow: hidden;
+}
+.topnav a{
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align:center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.topnav a:hover {
+	background-color: #F7B906;
+	color: black;
+}
+.topnav a.active{
+	background-color:lightblue;
+	color: white;
+}
+div.hero-image{
+	background-image:url("../image/main.jpg");
+	height: 90%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+div.hero-image1{
+	background-image:url("../image/prayer1.jpg");
+	height: 90%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+div.hero-text{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+div.hero-text h1 {
+	font-size: 7em;
+	color:purple;
+	font-style: italic;
+	font-weight: bolder;
+}
+div.hero-text a button{
+	color: black;
+	border-color: lightblue;
+	background-color:lightblue;
+	font-weight: bolder;
+	padding: 10px;
+	width: 100px;
+	height:50px;
+	border-radius: 50%;
+}
+.description{
+	max-width:600px;
+	text-align: center;
+	margin:auto;
+}
+.first{
+	float:left;
+	width:50%;
+
+
+}
+.second{
+	float:right;
+	width: 50%;
+	
+}
+.third{
+	float:left;
+	width:50%;
+
+
+}
+
+.five{
+	float:left;
+	width: 50%;
+}
+.six{
+	float:left;
+	width: 50%;
+}
+
+.seven{
+	float:left;
+	width: 50%;
+	
+}
+.image{
+	width:300px;
+	height:300px;
+	border-radius:50%;
+	
+}
+.fourth{
+	float:right;
+	width:50%;
+}
+
+.overlay{
+	background: rgba(38,38,38, 0.57);
+	z-index: 500;
+
+}
+#volunteer{
+	color: white;
+	border-color:purple;
+	background-color: blue;
+	font-size: 2em;
+	padding: 100px;
+	width:250px;
+	height:250px;
+	border-radius: 50%;
+	margin-left: 350px;
+	margin-top: 100px
+}
+#donation{
+	color: white;
+	border-color:#purple;
+	background-color:purple;
+	font-size: 2em;
+	text-align: center;
+	padding: 100px;
+    width:250px;
+    height:250px;
+	border-radius: 50%;
+	margin-left: 100px
+
+
+
+}	
+.col-md-3{
+	
+	margin-top: 20px;
+    color: darkblue;
+	background-color: white;
+
+
+}
+
+#arms{
+	text-align: center;
+	font-style: italic;
+	margin-top: 100px;
+	font-size:2em;
+	font-weight: bolder;
+	color: lightgreen;
+	text-decoration: overline;
+}
+.purpose{
+	background-color: darkblue;
+	text-align: center;
+	color: white;
+	margin: auto;
+
+}
+
+.p{
+	text-align: left;
+	background-color:white;
+	text-decoration:underline;
+	color: darkblue;
+	font-style: italic;
+	font-weight: bold;
+	margin-bottom: 100px;  
+}
+.y{
+	text-align:left;
+	direction: rtl;
+	color:black;
+	text-indent: 30px;
+}
+
+.description{
+	color:purple;
+	font-style:italic;
+	font-weight: bold;
+	
+}
+.b{
+	margin-bottom: 100px;
+}
+.l{
+	color: black;
+	border-color: lightblue;
+	background-color:lightblue;
+	font-weight: bolder;
+	padding: 10px;
+	width: 100px;
+	height:50px;
+	border-radius: 50%
+
+}
+.pic{
+
+	float: left;
+	width: 20%;
+	width:300px;
+	height:300px;
+	border-radius:30%;
+	
+}
+.footer{
+	background-color: purple;
+	color: white;
+	text-decoration: underline;
+}
+input[type=text] {
+    width: 50%;
+    padding: 10px 18px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.aboutus{
+	float: left;
+	width: 20%;
+	width:300px;
+	height:300px;
+	border-radius:30%;
+	
+}
+
+
+
